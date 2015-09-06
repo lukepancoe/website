@@ -5,17 +5,19 @@
  */
 
 header .header-content .header-content-inner h1 {
-    color: #333;
-    text-shadow: 0.5px 0.5px #fff;
-    margin-top: -300px;
-
+    color: #ffffff;
 }
 
 header .header-content .header-content-inner p {
-    color: #333;
-    text-shadow: 0.5px 0.5px #fff;
+    color: #ffffff;
     font-size: 32px;
     padding-top: 15px;
+}
+
+header .header-content .header-content-inner span {
+    color: #ffffff;
+    background-color: #333444;
+    opacity: .85;
 }
 
 @media(min-width:768px) {
@@ -191,29 +193,22 @@ ul.social-buttons li a:active {
     margin: 0 0 15px;
 }
 
-/*#logoHOL {*/
-    /*padding-top: 135.5px;*/
-    /*padding-bottom: 135.5px;*/
-    /*border-top-width: 1px;*/
-    /*border-bottom-width: 1px;*/
-    /*border-style: solid;*/
-    /*border-color: black;*/
-/*}*/
+#bike {
+    height: 323px;
+}
 
-/*#oneway {*/
-    /*border-width: 1px;*/
-    /*border-style: solid;*/
-    /*border-color: black;*/
-/*}*/
+#coffeeShop {
+    height: 323px;
+    width: 480px;
+}
 
-/*#logoASA {*/
-    /*padding-top: 21.5px;*/
-    /*padding-bottom: 30.5px;*/
-    /*border-top-width: 1px;*/
-    /*border-bottom-width: 1px;*/
-    /*border-style: solid;*/
-    /*border-color: black;*/
-/*}*/
+#firenzeASA {
+    height: 323px;
+}
+
+.bg-dark {
+    background-color: #555;
+}
 
 #portfolio1 .portfolio-item .portfolio-link {
     display: block;
@@ -279,10 +274,4 @@ ul.social-buttons li a:active {
 
 #portfolio1 * {
     z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio1 .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
